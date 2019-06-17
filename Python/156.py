@@ -12,7 +12,6 @@ for line in sys.stdin:
     input_line = line.strip().split(' ')
     total_input += input_line
 
-
 sorted_word_list = ["".join(sorted(word.lower())) for word in total_input]
 
 for i, word in enumerate(sorted_word_list):
